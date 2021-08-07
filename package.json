@@ -1,0 +1,25 @@
+{
+    "name": "combine-ojt",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node gate-ojt.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/apriliaaachi/combine-ojt.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/apriliaaachi/combine-ojt/issues"
+    },
+    "homepage": "https://github.com/apriliaaachi/combine-ojt#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "ipware": "^2.0.0",
+        "lodash": "^4.17.21"
+    }
+}

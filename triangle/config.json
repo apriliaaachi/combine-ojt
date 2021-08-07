@@ -1,0 +1,24 @@
+{
+    "credential": [{
+            "username": "PRISCIL001",
+            "password": "wDaBRdXxOtrwM57l"
+        },
+        {
+            "username": "HANA002",
+            "password": "wDaBRdXxOtrwM57l"
+        },
+        {
+            "username": "ARYO003",
+            "password": "wDaBRdXxOtrwM57l"
+        },
+        {
+            "username": "BAYU004",
+            "password": "wDaBRdXxOtrwM57l"
+        },
+        {
+            "username": "ACHI005",
+            "password": "wDaBRdXxOtrwM57l"
+        }
+    ],
+    "port": 6640
+}
