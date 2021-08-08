@@ -1,23 +1,23 @@
 {
     "credential": [{
-            "username": "PRISCIL001",
-            "password": "wDaBRdXxOtrwM57l"
+            "username": "PRISCIL",
+            "password": "001pRisciLliaPps"
         },
         {
-            "username": "HANA002",
-            "password": "wDaBRdXxOtrwM57l"
+            "username": "HANA",
+            "password": "002NuRHanARhmDN"
         },
         {
-            "username": "ARYO003",
-            "password": "wDaBRdXxOtrwM57l"
+            "username": "ARYO",
+            "password": "003aRYOAlFind"
         },
         {
-            "username": "BAYU004",
-            "password": "wDaBRdXxOtrwM57l"
+            "username": "BAYU",
+            "password": "004bAYukhAriRm"
         },
         {
-            "username": "ACHI005",
-            "password": "wDaBRdXxOtrwM57l"
+            "username": "ACHI",
+            "password": "005apRiliAaaChI"
         }
     ],
     "port": 6640

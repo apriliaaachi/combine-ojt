@@ -8,7 +8,12 @@ function encrypt(password) {
     var encrypted = cipher.update(password, 'utf8', 'base64')
     encrypted += cipher.final('base64')
 
-    return encrypted
+    var data = {
+        'iv': iv,
+        'key': key,
+        'encrypted': encrypted
+    }
+    return data
 }
 
 module.exports = {
