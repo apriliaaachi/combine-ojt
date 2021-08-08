@@ -7,7 +7,9 @@ var _ = require('lodash')
 
 /* Body Parser */
 router.use(bodyParser.json())
-router.use(bodyParser.urlencoded({ extended: true }))
+router.use(bodyParser.urlencoded({
+    extended: true
+}))
 
 /* protect Key */
 router.use('/', function(req, res, next) {
@@ -23,7 +25,10 @@ router.use('/', function(req, res, next) {
     )
 
     /* Cek The Key */
-    var passwd = _.find(conf.credential, { username: req.headers.username, password: req.headers.password })
+    var passwd = _.find(conf.credential, {
+        username: req.headers.username,
+        password: req.headers.password
+    })
     if (passwd) {
         next()
     } else {

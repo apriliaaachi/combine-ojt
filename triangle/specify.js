@@ -65,7 +65,6 @@ router.post('/', function(req, res) {
         sideArray.push(newInput)
     }
 
-
     if (invalid > 0) {
         var dataRes = {
             'rsp': "997",
