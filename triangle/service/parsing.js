@@ -12,14 +12,14 @@ function TextToNumber(arrkata) {
     var toNumber = arrkata.map((angka, index, { length }) =>
             angka === "puluh" && index + 1 === length ? '0' : //20,30,40
             angka === "puluh" && index + 1 === length - 1 ? '' : //23
-            angka === "seratus" && arrkata[index + 1] === "sebelas" ? "1" + blablabla(angka) : //111
-            angka === "seratus" && arrkata[index + 1] === "sepuluh" ? "1" + blablabla(angka) : //110
-            arrkata[index + 1] === "sebelas" ? blablabla(angka) : //111
-            arrkata[index + 1] === "sepuluh" ? blablabla(angka) : //110
+            angka === "seratus" && arrkata[index + 1] === "sebelas" ? "1" + isTypo(angka) : //111
+            angka === "seratus" && arrkata[index + 1] === "sepuluh" ? "1" + isTypo(angka) : //110
+            arrkata[index + 1] === "sebelas" ? isTypo(angka) : //111
+            arrkata[index + 1] === "sepuluh" ? isTypo(angka) : //110
             angka === "ratus" && index + 1 === length ? '00' : //200,300
             angka === "ratus" && index + 1 === length - 1 ? '0' : //201-209
             angka === "ratus" && index + 2 === length - 2 ? '' : //221
-            arrkata[index + 1] === "belas" ? "1" + blablabla(angka) : //12
+            arrkata[index + 1] === "belas" ? "1" + isTypo(angka) : //12
             angka === "seratus" && index + 1 === length - 1 ? "1" + '0' : //101-109
             angka === "seratus" && index + 2 === length - 2 ? "1" + '' : //121
             angka === "seratus" && index + 2 === length - 1 ? "1" + '' : //112-119

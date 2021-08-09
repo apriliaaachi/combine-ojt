@@ -91,6 +91,7 @@ router.post('/', function(req, res) {
     }
 
     res.send(dataRes)
+    console.log('Response to client: ' + clientip + ' ' + JSON.stringify(dataRes))
 })
 
 module.exports = router
